@@ -18,3 +18,7 @@ jobs:
       - run:
          command: echo hello & echo world
          shell: cmd.exe
+      - checkout
+      - run: dotnet tool instalkl --global PowerShell
+      - run: pwsh ./<a-script>.ps1
+      
