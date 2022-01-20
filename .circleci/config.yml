@@ -33,4 +33,4 @@ jobs:
     steps:
       - checkout
       - run: dotnet tool install --global PowerShell --version 5.1
-      - run: pwsh ./<a-script>.ps1
+      - run: pwsh ./a-script.ps1
