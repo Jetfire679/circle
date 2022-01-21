@@ -1,1 +1,1 @@
-cmd /C "echo anything1 > newfile.txt"
+cmd /C "echo anything2 > newfile.txt"
